@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type="text/css">
+      .greyb {
+        background-color: grey;
+        margin: 2em 0;
+        padding: 2em 0;
+      }
+      .btn{
+        margin: 0 2em;
+        transform: scale(1.5);
+      }
+      #output-content{
+        min-height: 3em;
+        background-color: lightgrey;
+        margin: 2em 2em;
+      }
+    </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="mx-auto col-8 greyb text-center">
+        <button onclick="lis1()" type="button" class="btn btn-primary listen" id="listen1">listen1</button>
+        <button onclick="lis2()" type="button" class="btn btn-success" id="listen2">listen2</button>
+        <button onclick="dev1()" type="button" class="btn btn-warning" id="dev1">dev1</button>
+        <button onclick="dev2()" type="button" class="btn btn-danger" id="dev2">dev2</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mx-auto col-8 greyb text-center">
+        <div class="header">
+          <h2>OUTPUT</h2>
+        </div>
+        <div class="content" id="output-content">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- project specific JS first, then jQuery, then Popper.js, then Bootstrap JS -->
+    <script src="b.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
